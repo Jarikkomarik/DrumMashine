@@ -1,5 +1,5 @@
 //final
-package pad;
+package RmiServicesServer;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -108,7 +108,7 @@ public class SamplePad implements KeyListener  {
 
         @Override
         public void keyTyped(KeyEvent e) {
-
+System.out.println("test");
             char charPressed = e.getKeyChar();
             switch (charPressed) {
                 case 'q':
